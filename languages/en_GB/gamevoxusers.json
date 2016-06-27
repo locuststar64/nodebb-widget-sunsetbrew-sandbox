@@ -1,0 +1,13 @@
+{
+    "notoken": "GameVox API token was not configured in the widget.",
+    "noserverid": "GameVox API server ID was not configured in the widget.",
+    "name": "GameVox Users",
+    "description": "Displays a list of active gamevox users.",
+    "requesterror": "Request error:",
+    "requestfailed": "GameVox request failed:",
+    "gamevoxtoken": "GameVox API token:",
+    "entergamevoxtoken": "Enter API GameVox token.",
+    "gamevoxserverid": "GameVox API server ID:",
+    "entergamevoxserverid": "Enter GameVox API server ID.",
+    "nousers": "No active users."
+}

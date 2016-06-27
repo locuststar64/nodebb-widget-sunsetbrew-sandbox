@@ -1,0 +1,22 @@
+{
+    "id": "nodebb-widget-sunsetbrew-sandbox",
+    "name": "NodeBB GameVox users widget",
+    "description": "This plugin allows for a widget to be created which shows the active users on a GameVox server.",
+    "url": "https://github.com/pitaj/nodebb-widget-sunsetbrew-sandbox",
+    "library": "library.js",
+    "staticDirs": {
+        "public": "public"
+    },
+    "hooks": [{
+        "hook": "filter:widgets.getWidgets",
+        "method": "defineWidget"
+    }, {
+        "hook": "filter:widget.render:gamevoxusers",
+        "method": "renderGameVoxUsersWidget"
+    }],
+    "css": [
+        "public/style.css"
+    ],
+    "templates": "public/templates",
+    "languages": "languages"
+}

@@ -1,0 +1,32 @@
+{
+    "name": "nodebb-widget-sunsetbrew-sandbox",
+    "version": "0.1.4",
+    "description": "GameVox users widget",
+    "main": "library.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sunsetbrew/nodebb-widget-sunsetbrew-sandbox.git"
+    },
+    "keywords": [
+        "gamevox",
+        "nodebb",
+        "widget"
+    ],
+    "nbbpm": {
+        "compatibility": "^1.0.3"
+    },
+    "author": {
+        "name": "sunsetbrew"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/sunsetbrew/nodebb-widget-sunsetbrew-sandbox/issues"
+    },
+    "homepage": "https://github.com/sunsetbrew/nodebb-widget-sunsetbrew-sandbox",
+    "dependencies": {
+        "handlebars": ">=4.0.5"
+    }
+}
